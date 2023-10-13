@@ -122,7 +122,7 @@
 			document.body.classList.add(_last = ('lang-'+lang));
 		}
 
-		setLang(navigator.language || 'en');
+		setLang(navigator.language && navigator.language.substring(0,2).toLowerCase() || 'en');
 	</script>
 </head>
 
