@@ -3,6 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Dema.ru</title>
 	<meta name="robots" content="all" />
 	<meta name="author" content="Dema.ru" />
@@ -60,11 +61,17 @@
 
 		h1 {
 			color: #f7630c;
+			text-align: center;
 		}
 		div {
-			width: 42em;
+			max-width: 42em;
 			text-indent: -1.4em;
-			margin: 0.6em 0;
+			margin: 0.6em 1.8em;
+		}
+		div.content {
+			max-width: 42em;
+			text-indent: 0;
+			margin: 0;
 		}
 		a {
 			text-decoration: none;
@@ -131,22 +138,26 @@
 	<img id="me" src="img/me.png">
 	<!-- RU content -->
 	<h1 class="content ru"><a href="https://github.com/ETCDema?tab=repositories">Мои проекты на GitHub</a></h1>
-	<div class="content ru"><a href="https://github.com/ETCDema/OAuth2.Client"><svg><use xlink:href="#github-logo"></use></svg>Небольшой OAuth2 клиент на C# с тестами и примером. Унифицированная работа с Google, Yandex, Github, Microsoft Live и VK.com.</a>
-		 <a href="https://www.nuget.org/packages/Dm.OAuth2.Client/" class="ext">🡺 Nuget пакет</a></div>
-	<div class="content ru"><a href="https://github.com/ETCDema/DmMD"><svg><use xlink:href="#github-logo"></use></svg>Модульный и расширяемый Markdown парсер, реализация на JS.</a> 
-		 <a href="https://etcdema.github.io/DmMD/" class="ext">🡺 Пример работы</a></div>
-	<div class="content ru"><a href="https://github.com/ETCDema/DmSyntax"><svg><use xlink:href="#github-logo"></use></svg>Подсветка синтаксиса для использования с Markdown парсером. А еще он умеет генерить в SVG.</a> 
-		 <a href="https://etcdema.github.io/DmSyntax/" class="ext">🡺 Пример работы</a></div>
+	<div class="content ru">
+		<div><a href="https://github.com/ETCDema/OAuth2.Client"><svg><use xlink:href="#github-logo"></use></svg>Небольшой OAuth2 клиент на C# с тестами и примером. Унифицированная работа с Google, Yandex, Github, Microsoft Live и VK.com.</a>
+			<a href="https://www.nuget.org/packages/Dm.OAuth2.Client/" class="ext">🡺 Nuget пакет</a></div>
+		<div><a href="https://github.com/ETCDema/DmMD"><svg><use xlink:href="#github-logo"></use></svg>Модульный и расширяемый Markdown парсер, реализация на JS.</a> 
+			<a href="https://etcdema.github.io/DmMD/" class="ext">🡺 Пример работы</a></div>
+		<div><a href="https://github.com/ETCDema/DmSyntax"><svg><use xlink:href="#github-logo"></use></svg>Подсветка синтаксиса для использования с Markdown парсером. А еще он умеет генерить в SVG.</a> 
+			<a href="https://etcdema.github.io/DmSyntax/" class="ext">🡺 Пример работы</a></div>
+	</div>
 	<footer class="content ru"><a href="https://t.me/ETCDema"><svg><use xlink:href="#tg-logo"></use></svg>Мой контакт</a></footer>
 	<!-- /RU content -->
 	<!-- EN content -->
 	<h1 class="content en"><a href="https://github.com/ETCDema?tab=repositories">Check out my GitHub repositories</a></h1>
-	<div class="content en"><a href="https://github.com/ETCDema/OAuth2.Client"><svg><use xlink:href="#github-logo"></use></svg>Tiny OAuth2 client C# implementation with tests and example. Unified work with Google, Yandex, Github, Microsoft Live and VK.com.</a>
-		 <a href="https://www.nuget.org/packages/Dm.OAuth2.Client/" class="ext">🡺 Nuget package</a></div>
-	<div class="content en"><a href="https://github.com/ETCDema/DmMD"><svg><use xlink:href="#github-logo"></use></svg>Modular and extensible Markdown parser & HTML render, implementation on JS.</a> 
-		 <a href="https://etcdema.github.io/DmMD/" class="ext">🡺 Demo</a></div>
-	<div class="content en"><a href="https://github.com/ETCDema/DmSyntax"><svg><use xlink:href="#github-logo"></use></svg>Syntax highlight for use with markdown parser. And it can also generate SVG.</a> 
-		 <a href="https://etcdema.github.io/DmSyntax/" class="ext">🡺 Demo</a></div>
+	<div class="content en">
+		<div><a href="https://github.com/ETCDema/OAuth2.Client"><svg><use xlink:href="#github-logo"></use></svg>Tiny OAuth2 client C# implementation with tests and example. Unified work with Google, Yandex, Github, Microsoft Live and VK.com.</a>
+			 <a href="https://www.nuget.org/packages/Dm.OAuth2.Client/" class="ext">🡺 Nuget package</a></div>
+		<div><a href="https://github.com/ETCDema/DmMD"><svg><use xlink:href="#github-logo"></use></svg>Modular and extensible Markdown parser & HTML render, implementation on JS.</a> 
+			 <a href="https://etcdema.github.io/DmMD/" class="ext">🡺 Demo</a></div>
+		<div><a href="https://github.com/ETCDema/DmSyntax"><svg><use xlink:href="#github-logo"></use></svg>Syntax highlight for use with markdown parser. And it can also generate SVG.</a> 
+			 <a href="https://etcdema.github.io/DmSyntax/" class="ext">🡺 Demo</a></div>
+	</div>
 	<footer class="content en"><a href="https://t.me/ETCDema"><svg><use xlink:href="#tg-logo"></use></svg>My contact</a></footer>
 	<!-- /EN content -->
 	<!--google analytics-->
